@@ -1,0 +1,83 @@
+body {
+  background: #F3F3F8; }
+  body .profiles {
+    margin-top: 20px; }
+    body .profiles .profile {
+      position: relative; }
+      body .profiles .profile .favorite {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        width: 0;
+        height: 0;
+        border-top: 40px solid #E0E0EF;
+        border-left: 40px solid transparent; }
+      body .profiles .profile .favorite:before {
+        position: absolute;
+        content: "star";
+        font-family: 'Material Icons';
+        color: #9098B1;
+        margin-left: -18px;
+        margin-top: -38px; }
+    body .profiles .profile:after {
+      position: absolute;
+      content: "more_vert";
+      font-family: 'Material Icons';
+      width: 40px;
+      height: 40px;
+      right: 1px;
+      bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      color: #CCCCD9;
+      cursor: pointer; }
+    body .profiles .profile-image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; }
+    body .profiles .profile-image:before {
+      content: "person_add";
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8em;
+      font-family: 'Material Icons';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: -20px;
+      border-radius: 50%;
+      background-color: #E2E5EE;
+      border: 2px solid #fff;
+      cursor: pointer; }
+    body .profiles h4.profile-name {
+      margin-top: 30px;
+      color: #777;
+      font-weight: 500; }
+    body .profiles .icon-activity {
+      background-color: #F3F3F8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+      body .profiles .icon-activity i {
+        color: #9098B1; }
+    body .profiles .info-activity p {
+      font-size: .96em; }
+
+.img-circled {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
+.img-centered {
+  display: block;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
